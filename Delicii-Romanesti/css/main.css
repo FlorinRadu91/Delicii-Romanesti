@@ -1,0 +1,143 @@
+/*pink #D3325F*/
+
+/*white #C9C1AC*/
+
+.info {
+ background: #b4b5af;
+}
+
+.info h2 {
+ word-spacing: 0.6rem
+}
+
+.info a {
+ transition: all 1s ease-in-out;
+}
+
+.info a:hover {
+ color: #242424;
+
+}
+
+/*header*/
+
+body {
+ /*  min-height: 100vh;*/
+ background: url(../img/banner-bcg.jpeg)center/cover fixed no-repeat;
+ font-family: 'Great Vibes', cursive;
+ color: #C9C1AC;
+}
+
+.primary-color {
+ color: #4A051C;
+}
+
+#header {
+ min-height: calc(100vh - 94px);
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sarmale.jpg)center/cover fixed no-repeat;
+ position: relative;
+}
+
+.height-90 {
+ min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+ border-top: 6px dotted #C9C1AC;
+ border-bottom: 6px dotted #C9C1AC;
+ animation: fromLeft;
+ animation-duration: 4s;
+ animation-delay: 2s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+
+}
+
+@keyframes fromLeft {
+ 0% {
+   transform: translateX(-100px);
+   opacity: 0;
+ }
+ 50% {
+   transform: translateX(30px);
+ }
+ 100% {
+   transform: translateX(0);
+   opacity: 1;
+ }
+}
+
+.main-btn {
+ color: #4A051C;
+ font-size: 2rem;
+ border: 2px solid #4A051C;
+ transition: all 1s ease-in-out;
+
+}
+
+.main-btn:hover {
+ color: #242424;
+ border: 2px solid #C9C1AC;
+ background: #C9C1AC;
+
+}
+
+.order-btn {
+ animation: fromRight;
+ animation-duration: 4s;
+ animation-delay: 2s;
+ opacity: 0;
+ animation-fill-mode: forwards;
+
+}
+
+
+@keyframes fromRight {
+ 0% {
+   transform: translateX(100px);
+   opacity: 0;
+ }
+ 50% {
+   transform: translateX(-30px);
+ }
+ 100% {
+   transform: translateX(0);
+   opacity: 1;
+ }
+}
+
+
+
+.header-link {
+ display: inline-block;
+ position: absolute;
+ bottom: 5%;
+ left: 50%;
+ background: #C9C1AC;
+ border: 3px solid #C9C1AC;
+ border-radius: 10px;
+ transition: all 2s ease;
+ animation: fromBottom;
+ animation-duration: 4s;
+ animation-iteration-count: infinite
+}
+
+.header-link:hover {
+
+ color: #242424;
+}
+
+@keyframes fromBottom {
+ 0% {
+   transform: translateY(-10px);
+
+ }
+ 50% {
+   transform: translateY(10px)
+ }
+
+ 100% {
+   transform: translateY(-10px);
+
+ }
+}
