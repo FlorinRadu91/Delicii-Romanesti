@@ -16,14 +16,13 @@
 
 .info a:hover {
  color: #242424;
-
 }
 
 /*header*/
 
 body {
  /*  min-height: 100vh;*/
- background: url(../img/banner-bcg.jpeg)center/cover fixed no-repeat;
+ background: url(../img/wall-bcg.jpg)center/cover fixed no-repeat;
  font-family: 'Great Vibes', cursive;
  color: #C9C1AC;
 }
@@ -33,9 +32,9 @@ body {
 }
 
 #header {
- min-height: calc(100vh - 94px);
- background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sarmale.jpg)center/cover fixed no-repeat;
- position: relative;
+  min-height: calc(100vh - 94px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-bcg.jpg)center/cover fixed no-repeat;
+  position: relative;
 }
 
 .height-90 {
@@ -141,3 +140,129 @@ body {
 
  }
 }
+/*navbar*/
+
+.navbar {
+  background: #C9C1AC;
+  padding: 20px 20px;
+  transition: all 1s ease;
+
+}
+
+.navbar-background {
+  padding: 5px 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: #242424;
+}
+
+.nav-link {
+  color: #242424;
+  text-decoration: none;
+  transition: all 2s ease;
+  font-size: 23px;
+}
+
+.nav-link:hover {
+  color: #4A051C;
+}
+
+.nav-btn {
+  background: transparent;
+  color: #4A051C;
+  border: 2px solid #4A051C;
+  font-size: 23px;
+  transition: all 2s ease;
+}
+
+.nav-btn:hover {
+  color: #242424;
+  border: 2px solid #242424;
+  transform: rotate(10deg)
+}
+
+.toggler-btn {
+  border: 2px solid #4A051C;
+  padding: 5px;
+  transition: 2s all ease;
+}
+
+
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #4A051C;
+  transition: all 0.5s ease;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
+
+/*menu items*/
+
+.item-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  transition: all 2s ease;
+
+}
+
+.item-img {
+  transition: all 2s ease-in-out;
+}
+
+.item-container:hover .item-img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.item-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4A051C;
+  font-size: 2rem;
+  border-top: 3px solid #4A051C;
+  border-bottom: 3px solid #4A051C;
+  transition: 2s all ease-in-out;
+  opacity: 0;
+
+}
+
+.item-container:hover .item-link {
+  opacity: 1;
+
+}
+
+.item-link:hover {
+  color: #C9C1AC;
+  border: 3px solid #C9C1AC;
+  background: #C9C1AC;
+  color: #242424;
+
+}
+
+.item-container:hover {
+  outline: 10px solid #4A051C;
+  outline-offset: 0.8rem;
+}
+
