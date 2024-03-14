@@ -21,19 +21,19 @@
 /*header*/
 
 body {
- /*  min-height: 100vh;*/
- background: url(../img/wall-bcg.jpg)center/cover fixed no-repeat;
- font-family: 'Great Vibes', cursive;
- color: #C9C1AC;
+  /*  min-height: 100vh;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/wall-bcg.jpg)center/cover fixed no-repeat;
+  font-family: 'Great Vibes', cursive;
+  color: #C9C1AC;
 }
 
 .primary-color {
- color: #4A051C;
+  color: #4A051C;
 }
 
-#header {
+#header{
   min-height: calc(100vh - 94px);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-bcg.jpg)center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-bcg.jpg)center/cover fixed no-repeat;
   position: relative;
 }
 
@@ -266,3 +266,21 @@ body {
   outline-offset: 0.8rem;
 }
 
+/*###################menu##############*/
+
+#menu {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/banner-bcg.jpg)center/cover fixed no-repeat;
+}
+
+.special {
+  border: 3px solid #4A051C;
+  position: relative;
+}
+
+.special-text {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  background: #4A051C;
+  padding: 0 0.4rem;
+}
