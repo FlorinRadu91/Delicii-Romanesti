@@ -368,3 +368,65 @@ body {
   color: #242424;
   transform: translateY(-5px);
 }
+
+/*contact*/
+
+.height-60 {
+  min-height: 60vh;
+}
+
+#contact .card {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 2s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .card-header {
+  color: #4A051C;
+}
+
+#contact .input-group-text {
+  background: #4A051C;
+  border-color: #4A051C;
+  color: #242424;
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: #606060;
+}
+
+.contact-btn {
+  color: #4A051C;
+  border-color: #4A051C;
+  background: transparent;
+  transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: #C9C1AC;
+  color: #4A051C;
+  border-color: #C9C1AC;
+}
+
+/*footer*/
+
+#back-to-top {
+  background: #C9C1AC;
+  border-radius: 10px;
+}
+
+
+
+.scrollTop {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+
+}
