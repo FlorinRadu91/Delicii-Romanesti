@@ -358,6 +358,14 @@ body {
 
 /*team*/
 
+.team-member{
+  transition: transform 1s;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
 .team-icons a {
   color: #4A051C;
 
@@ -368,6 +376,8 @@ body {
   color: #242424;
   transform: translateY(-5px);
 }
+
+
 
 /*contact*/
 
